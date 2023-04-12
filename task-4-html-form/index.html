@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="background-color: skyblue; width: 550px;">
+        <fieldset>
+            <legend>Primary Details</legend>
+            <div style="margin-bottom: 5px;">
+                Medicare No: <input type="text"><span>   /</span> Valid Till: <input type="date">
+            </div>
+            <div style="margin-bottom: 5px;">
+                <label >Title:</label>
+                <select>
+                    <option value="None">None</option>
+                    <option value="None">Lastname</option>
+                    <option value="None">Firstname</option>
+                    <option value="None">Middle</option>
+                </select> 
+            </div>
+            <div style="margin-bottom: 5px;">
+                Name: <input type="text">
+            </div>
+            <div style="margin-bottom: 5px;">
+                Pref. Name: <input type="text">
+            </div>
+            <div style="margin-bottom: 5px;">
+                DOB: <input type="date">
+            </div>
+            <div style="margin-bottom: 5px;">
+                Sex: <input type="radio" value="Male" ><span> Male</span><input type="radio" value="Female"><span> Female</span>
+            </div> 
+        </fieldset>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <table>
+                    <td>
+                        Phone:
+                    </td>
+                    <td>
+                        <div>
+                            <label for="Home">Home</label>
+                            <label for="Work" style="margin-left: 130px;">Work</label>
+                            <div> <input type="text" id="Home"><input type="text" id="Work"></div>
+                           
+                        </div>
+                        <div>
+                            <label for="Mobile">Mobile</label>
+                            <label for="Fax" style="margin-left: 120px;">Fax</label>
+                            <div> <input type="text" id="Mobile"><input type="text" id="Fax"></div>
+                           
+                        </div>
+                        <div>
+                            <label for="Nextf">Next of Kin</label>
+                            <label for="Nextfp" style="margin-left: 90px;">Next of Kin ph</label>
+                            <div> <input type="text" id="Nextf"><input type="text" id="Nextfp"></div>
+                           
+                        </div>
+                    </td>
+                </table>
+                
+            </div>
+            
+            <div style="margin-bottom: 5px;">
+                Emerg. No: <input type="text">
+            </div>
+            <div style="margin-bottom: 5px;">
+                Email: <input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Address Details</legend>
+            <fieldset>
+                <legend>Residential Address</legend>
+                <div style="margin-bottom: 5px;">
+                   Address 1: <input type="text">
+                </div>
+                <div style="margin-bottom: 5px;">
+                    Address 2: <input type="text">
+                </div>
+                <div style="margin-bottom: 5px;">
+                    Subrub: <input type="text"> 
+                    <label >State:</label>
+                    <select>
+                        <option value="None">None</option>
+                        <option value="None">ABC</option>
+                        <option value="None">PQR</option>
+                        <option value="None">XYZ</option>
+                    </select>
+                </div>
+                <div>
+                    Postal code: <input type="text">
+                    Country: <input type="text">
+                </div>
+                 
+            </fieldset>
+            <fieldset>
+                <legend>Single Address</legend>
+                Are Mailing Address and Residential Address same?<input type="checkbox">Yes  
+            </fieldset>
+            <fieldset>
+                <legend>Mailing Address</legend>
+                <div style="margin-bottom: 5px;">
+                   Address 1: <input type="text">
+                </div>
+                <div style="margin-bottom: 5px;">
+                    Address 2: <input type="text">
+                </div>
+                <div style="margin-bottom: 5px;">
+                    Subrub: <input type="text"> 
+                    <label >State:</label>
+                    <select>
+                        <option value="None">None</option>
+                        <option value="None">ABC</option>
+                        <option value="None">PQR</option>
+                        <option value="None">XYZ</option>
+                    </select>
+                </div>
+                <div>
+                    Postal code: <input type="text">
+                    Country: <input type="text">
+                </div>
+            </fieldset>
+        </fieldset>
+        <div style="margin-left: 25px; margin-bottom: 10px;">IHI NUMBER     80036: <input type="text"></div>
+        <div style="margin-left: 25px; margin-bottom: 10px;">Number Status: <input type="text"></div>
+        <div style="margin-left: 25px; margin-bottom: 10px;">Record Status: <input type="text"></div>
+        <div style="margin-left: 25px; margin-bottom: 10px;">Last Updated:  <input type="text"> </div>
+    </form>   
+</body>
+</html>
