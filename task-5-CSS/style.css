@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+   
+    background-color: #f2f2f2;;
+    font-family: 'Poppins';
+   
+}
+.left{
+    padding: 30px;
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 800px;
+    background: white;
+    height: 1100px;
+    margin-right: 0px;   
+}
+h1{
+    color: rgb(84, 84, 232);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+
+p{
+    margin-left:100px;
+    margin-top: 0px;
+}
+li{
+
+    font-weight: bold;
+}
+i{  border-radius: 50%;
+    background-color: rgb(193, 225, 243);
+    margin-left: 10px;
+    margin-right: 20px;
+    position: relative;
+   padding: 10px;
+    margin-top: 25px;
+}
+.icon{
+    display: inline-block;
+    margin: 0px;
+    margin-left: 10px;
+    color: rgb(84, 84, 232);
+}
+.heading{
+    display: inline-block;
+    margin: 0px;
+}
+.pos{
+    margin-left: 100px;
+    font-weight: bold;
+}
+.comp{
+    margin-left: 100px;
+    display: inline-block;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+.year{
+    display: inline-block;
+    margin-left: 450px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.pro{
+    margin-left: 85px;
+}
+
+
+* {box-sizing:border-box}
+
+.container {
+  width: 500px; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 60%; background-color:rgb(84, 84, 232);} 
+.java {width: 90%; background-color: rgb(84, 84, 232);} 
+.skill{
+    width: 100px;
+    display: inline-block;
+    margin-left: 85px;
+    font-weight: bold;
+}
+.bar{
+    display: inline-block;
+    margin-left: 50px;
+}
+img{
+    border-radius: 50%;
+    margin-top: 20px;
+    text-shadow: 2px 2px;
+}
+.right{
+    margin-left: 0px;
+    width:350px;
+    display: inline-block;
+    vertical-align: top;
+    height: 1100px;
+    background-image: linear-gradient(rgb(5, 5, 20),rgb(84, 86, 235));
+   
+}
+.top{
+    height:280px;
+}
+.name{
+    
+}
+h3{
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.occu{
+    color: white;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.med{
+    color: rgb(249, 249, 249);
+}
+.txt{
+    display: inline-block;
+    margin-left: 0px;
+    font-weight: bold;
+    margin: 0px;
+}
+.icn{
+    color: black;
+    display: inline-block;
+    margin-left: 15px;
+    align-items: center;
+ 
+}
+h2{
+    margin: 0px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+h4{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.yr{
+    font-weight: bold;
+    margin-left: 30px;
+    opacity: 0.5;
+    color: white;
+}
