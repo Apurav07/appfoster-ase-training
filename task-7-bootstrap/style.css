@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins';
+    background-color: #f2f2f2;
+}
+.i1{
+    display: inline-block;
+    margin-left:10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.head{
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.input-group{
+    display: inline-block;
+    margin-left: 50px;
+}
+.search{
+    display: inline-block;
+    margin-left: 50px;
+}
+.row{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.i2{
+    display: inline-block;
+    margin-left:1600px;
+    vertical-align: middle;
+    
+}
+.row i{
+    border-radius: 40%;
+    background-color: rgb(206, 167, 148);
+}
+input{
+    border-radius: 10%;
+}
+button{
+    border-radius: 15%;
+}
+.side-bar{
+    width: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+    display: inline-block;
+}
+.item{
+    margin-bottom: 50px;
+}
+.container{
+    width: 2100px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.pro{
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+}
+.date{
+    margin-left: 1800px;
+    display: inline-block;
+    margin-left: ;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+.container .row{
+    background-color: white;
+}
+.num{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.ab .col-lg-4{
+    width:150px;
+}
+.info{
+    font-weight: bold;
+}
