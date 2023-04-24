@@ -28,9 +28,8 @@ body{
 }
 .i2{
     display: inline-block;
-    margin-left:1600px;
+    margin-left: 950px;
     vertical-align: middle;
-    
 }
 .row i{
     border-radius: 40%;
@@ -50,28 +49,29 @@ button{
     display: inline-block;
 }
 .item{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .container{
-    width: 2100px;
+    width: 1400px;
     background-color: white;
     display: inline-block;
     vertical-align: top;
     border-radius: 25px;
     padding: 20px;
     margin-left: 20px;
+    height: 700px;
 }
 .pro{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
     display: inline-block;
 }
 .date{
-    margin-left: 1800px;
+    margin-left: 1050px;
     display: inline-block;
-    margin-left: ;
     vertical-align: middle;
     font-weight: bolder;
+    font-size: 25px;
 }
 .container .row{
     background-color: white;
@@ -85,4 +85,170 @@ button{
 }
 .info{
     font-weight: bold;
+}
+.col-sm-12 .date{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.work{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.daysleft{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 6px;
+    background-color: white;
+    width: 100px;
+    border-radius: 25px;
+    font-weight:bolder;
+}
+.content1{
+    margin-top: 20px;
+    background-color: #f1eba7;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;   
+}
+.content2{
+    margin-top: 20px;
+    background-color: #d7e9b6;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+.content3{
+    margin-top: 20px;
+    background-color: #eecef7;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+.content4{
+    margin-top: 20px;
+    background-color: #98d7f8;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+.content5{
+    margin-top: 20px;
+    background-color: #e9bca7;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+.content6{
+    margin-top: 20px;
+    background-color: #d0f4c9;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+}
+.sbox2{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+  body {
+   width: 295px;
+  }
+  .container{
+    width: 250px;
+    height: 1600px;
+  }
+  .content1{
+    width: 200px;
+  }
+    .content2{
+    width: 200px;
+  }
+    .content3{
+    width: 200px;
+  }
+    .content4{
+    width: 200px;
+  }
+    .content5{
+    width: 200px;
+  }
+    .content6{
+    width: 200px;
+  }
+  .num{
+    font-size: 20px;
+  
+  }
+  .info{
+    font-size: 5px;
+}
+.ab .col-lg-4{
+    margin-top: 30px;
+    width: 70px;
+    display: inline-block;
+ }
+ .i2{
+    display: inline-block;
+    margin-left: 95px;
+    vertical-align: middle;
+}
+.search{
+    margin-left: 2px;
+}
+.i1{
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    margin-top: 4px;
+    vertical-align: top;
+    margin-left: 2px;
+}
+.btn{
+    font: size 1px;;
+
+}
+.pro{
+    height: 1px; 
+}
+.menu{
+    display:block;
+}
+.container{
+    display:inline-block;
+    margin-left: 5px;
+}
+.row .date{
+    margin-left: 30px;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+.sbox{
+    display:none;
+}
+.item{
+    margin-top:50px;
+    margin-bottom: 50px;
+    
+
+}
+
+.side-bar{
+    padding:2px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 0px;
+    background-color: rgb(244, 219, 223);
+    border-radius: 25px;
+}
+.sbox2{
+    display: block;
+    margin-bottom:20px;
+    margin-left:10px;
+
+}
+
 }
