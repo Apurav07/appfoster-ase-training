@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
     font-family: 'Poppins';
@@ -165,6 +166,33 @@ button{
   border-radius: 25px;
   margin-right: 50px;
 }
+.fa-1x {
+  font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+.dark-blue-text {
+  color: #0A38F5;
+}
+.dark-pink-text {
+  color: #AC003A;
+}
+.dark-amber-text {
+  color: #ff6f00;
+}
+.dark-teal-text {
+  color: #004d40;
+}
+.navmob{
+  background-color: white;
+}
+.navbar-toggler.toggler-example{
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+
 @media only screen and (max-width: 600px) {
   .container{
     width: 330px;
@@ -172,21 +200,27 @@ button{
   }
   .content1{
     width: 250px;
+    margin-left: 0px;
   }
     .content2{
     width: 250px;
+    margin-left: 0px;
   }
     .content3{
     width: 250px;
+    margin-left: 0px;
   }
     .content4{
     width: 250px;
+    margin-left: 0px;
   }
     .content5{
     width: 250px;
+    margin-left: 0px;
   }
     .content6{
     width: 250px;
+    margin-left: 0px;
   }
   .num{
     font-size: 20px;
@@ -195,10 +229,14 @@ button{
   .info{
     font-size: 10px;
 }
+.ab{
+  width: 400px;
+}
+
 .ab .col-lg-4{
     margin-left: 0px;
     margin-top: 30px;
-    width: 100px;
+    width: 80px;
     display: inline-block;
     padding: 0px;
  }
@@ -232,7 +270,7 @@ button{
     margin-left: 5px;
 }
 .row .date{
-    margin-left: 30px;
+    margin-left: 60px;
     font-size: 10px;
     margin-bottom: 4px;
 }
@@ -249,9 +287,90 @@ button{
 .search{
     margin-left: 2px;
     border-radius: 25px;
+    padding-right: 40px;
+}
+.navmov{
+  display:contents;
+  margin:0px;
+}
+.i1{
+  display: none;
+}
+.head{
+  display: none;
 }
 }
 @media (min-width: 601px) and (max-width: 767px){
+    .container{
+        width:450px;
+        height:1650px;
+    }
+     .content1{
+    width: 350px;
+  }
+    .content2{
+    width: 350px;
+  }
+    .content3{
+    width: 350px;
+  }
+    .content4{
+    width: 350px;
+  }
+    .content5{
+    width: 350px;
+  }
+    .content6{
+    width: 350px;
+  }
+  .side-bar{
+    padding: 5px;
+    background-color: rgb(242, 188, 216);
+    border-radius: 25px;
+  }
+
+  .ab .col-lg-4{
+    display: inline-block;
+  }
+  .num{
+    font-size: 20px;
+  }
+  .info{
+    font-size:15px;
+  }
+  .date{
+    margin-left: 350px;
+    font-size: 10px;
+    vertical-align: middle;
+  }
+  .i2{
+    display: none;
+  }
+  .mid{
+    height: 1700px;
+  }
+  .search{
+    margin-left: 130px;
+    background-color: rgb(250, 215, 246);
+    padding: 2px;
+    border-radius: 25px;
+  }
+  .navmob{
+    display: none;
+  }
+  .ab{
+    width: 600px;
+  }
+  
+  .ab .col-lg-4{
+      margin-left: 0px;
+      margin-top: 30px;
+      width: 150px;
+      display: inline-block;
+      padding: 0px;
+   }
+}
+@media (min-width: 768px) and (max-width: 992px){
     .container{
         width:650px;
         height:1600px;
@@ -275,64 +394,11 @@ button{
     width: 550px;
   }
   .side-bar{
-    display: none;
-  }
-
-  .ab .col-lg-4{
-    display: inline-block;
-  }
-  .num{
-    font-size: 40px;
-  }
-  .info{
-    font-size: 15px;
-  }
-  .date{
-    margin-left: 520px;
-    font-size: 15px;
-    vertical-align: middle;
-  }
-  .i2{
-    display: none;
-  }
-  .mid{
-    height: 1700px;
-  }
-  .search{
-    margin-left: 130px;
-    background-color: rgb(250, 215, 246);
-    padding: 2px;
+    padding: 5px;
+    background-color: rgb(242, 188, 216);
     border-radius: 25px;
   }
 
-}
-@media (min-width: 768px) and (max-width: 992px){
-    .container{
-        width:900px;
-        height:1600px;
-    }
-     .content1{
-    width: 700px;
-  }
-    .content2{
-    width: 700px;
-  }
-    .content3{
-    width: 700px;
-  }
-    .content4{
-    width: 700px;
-  }
-    .content5{
-    width: 700px;
-  }
-    .content6{
-    width: 700px;
-  }
-  .side-bar{
-    display: none;
-  }
-
   .ab .col-lg-4{
     display: inline-block;
   }
@@ -343,7 +409,7 @@ button{
     font-size: 15px;
   }
   .date{
-    margin-left: 750px;
+    margin-left: 500px;
     font-size: 15px;
     vertical-align: middle;
   }
@@ -359,6 +425,9 @@ button{
     padding: 2px;
     border-radius: 25px;
     padding-left: 100px;
+  }
+  .navmob{
+    display: none;
   }
 
 }
@@ -414,6 +483,9 @@ button{
   padding: 2px;
   border-radius: 25px;
   padding-left: 100px;
+}
+.navmob{
+  display: none;
 }
 
 }
@@ -474,6 +546,9 @@ padding-left: 100px;
 .i2{
   margin-left: 280px;
 }
+.navmob{
+  display: none;
+}
 
 }
 @media  (min-width: 1191px) and (max-width:1290px){
@@ -532,6 +607,15 @@ padding-left: 100px;
 .i2{
   margin-left: 330px;
 }
+.navmob{
+  display: none;
+}
+
+}
+@media  (min-width: 1291px){
+  .navmob{
+    display: none;
+  }
 
 }
 
