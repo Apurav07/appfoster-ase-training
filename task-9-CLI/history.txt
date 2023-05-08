@@ -1,0 +1,58 @@
+    1  git config
+    2  gir config --global user.name
+    3  git config --global user.email
+    4  code.
+    5  code
+    6  git init
+    7  git commit
+    8  git add APPFOSTER-ASE-TRAINING
+    9  git log
+   10  git branch
+   11  git branch dev
+   12  git branch temp
+   13  cd<APPFOSTER-ASE-TAINING>
+   14  mkdir cli
+   15  mkdir test
+   16  rmdir testing
+   17  cd test
+   18  echo temp.txt
+   19  echo temp >> temp.txt
+   20  type temp.txt
+   21  echo temp >temp.txt
+   22  type temp.txt
+   23  copy con temp.txt
+   24  copy /?
+   25  mkdir /?
+   26  copy can temp.txt
+   27  exho temp > temp1.txt
+   28  cd ..
+   29  cd test
+   30  mkdir newtemp
+   31  xcopy temp.txt newtemp
+   32  cd newtemp
+   33  rmdir temp.txt
+   34  del temp.txt
+   35  history 
+   36  cd cli
+   37  cd ..
+   38  cd ..
+   39  del history.txt
+   40  move history.txt test
+   41  history > history1.txt
+   42  echo cli
+   43  cd ..
+   44  echo
+   45  ls
+   46  history
+   47  cd test
+   48  git rm temp.txt
+   49  git add temp.txt
+   50  git rm temp.txt
+   51  git rm temp.txt -f
+   52  git rm temp1.txt -f
+   53  git add temp1.txt
+   54  git rm temp1.txt -f
+   55  history
+   56  cd ..
+   57  histort > history.txt
+   58  history > history.txt
