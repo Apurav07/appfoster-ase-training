@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/task-8-js/css/style.css">
+    <title>Task 8</title>
 </head>
-<body>
-    <button onclick="
-        cq=cq+1;
-        console.log(`Cart Ouantity: ${cq}`);
-        "
-    >Add to Cart</button>
-    <button onclick="
-       cq=cq+2;
-       console.log(`Cart Ouantity: ${cq}`);
-    ">+2</button>
-    <button onclick="
-      cq=cq+3;
-      console.log(`Cart Ouantity: ${cq}`);">+3</button>
-    <script>
-        let cq=0;
-    </script>
+<body align="center">
+    <div class="container">
+        <form action="" class="form" >
+            <label align="left">Enter a number:</label>
+            <input id="num" >
+            <label align="left">Enter the number of times you want to split:</label>
+            <input id="split">
+            <button class="button" id="btn" type="submit">Submit</button>
+        </form>
+        <script src="/task-8-js/js/script.js" defer></script>
+        <div id="clr"></div>
+    </div>
 </body>
 </html>
