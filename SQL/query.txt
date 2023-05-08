@@ -1,0 +1,7 @@
+1 --------> INSERT INTO Customers(customer_id,first_name,last_name,age,country)VALUES(45,'purav','sharma',20,'INDIA');
+2 --------> INSERT INTO Customers(customer_id,first_name,last_name,age,country)VALUES(49,'urav','sharma',20,'INDIA'),(48,'rav','sharma',20,'INDIA');
+3 --------> SELECT COUNT(customer_id),country FROM Customers GROUP BY country;
+4 --------> SELECT order_id FROM Orders WHERE amount BETWEEN 100 AND 500;
+5 --------> SELECT first_name, last_name FROM Customers AS c INNER JOIN Orders AS O ON o.customer_id=c.customer_id WHERE item = "Keyboard"; 
+6 --------> SELECT country FROM Customers AS c INNER JOIN Shippings AS s ON s.customer=c.customer_id WHERE status = "Pending"; 
+7 --------> SELECT COUNT(order_id), c.customer_id FROM Orders AS o INNER JOIN Customers AS c ON o.customer_id=c.customer_id GROUP BY c.customer_id; 

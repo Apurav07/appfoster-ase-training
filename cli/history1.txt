@@ -1,0 +1,27 @@
+    1  mkdir test
+    2  rmdir testing
+    3  cd test
+    4  echo temp.txt
+    5  echo temp >> temp.txt
+    6  type temp.txt
+    7  echo temp >temp.txt
+    8  type temp.txt
+    9  copy con temp.txt
+   10  copy /?
+   11  mkdir /?
+   12  copy can temp.txt
+   13  exho temp > temp1.txt
+   14  cd ..
+   15  cd test
+   16  mkdir newtemp
+   17  xcopy temp.txt newtemp
+   18  cd newtemp
+   19  rmdir temp.txt
+   20  del temp.txt
+   21  history 
+   22  cd cli
+   23  cd ..
+   24  cd ..
+   25  del history.txt
+   26  move history.txt test
+   27  history > history1.txt
