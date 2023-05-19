@@ -2,6 +2,7 @@ table {
     margin: 0 auto;
     font-size: large;
     border: 1px solid black;
+    width: 500px;
 }
 
 h1 {
@@ -28,4 +29,13 @@ td {
 
 td {
     font-weight: lighter;
+  
+}
+.table{
+    display: inline-block;
+
+}
+.modal{
+    display: inline-block;
+    vertical-align: top;
 }

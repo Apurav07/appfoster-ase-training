@@ -1,7 +1,8 @@
-let res=[];
+
 let form=document.querySelector('form');
 let cdiv=document.querySelector('#clr');
 form.addEventListener('submit', event =>{event.preventDefault();
+    let res=[];
     let num = Number(document.querySelector('#num').value);
     let sp = Number(document.querySelector('#split').value);
     console.log(num)
